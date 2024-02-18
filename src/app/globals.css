@@ -5,3 +5,66 @@
 body {
   background-color: #1E293B;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(to right, #94A3B8, #94A3B8);
+  opacity: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: #F472B6;
+  border-radius: .3rem;
+}
+
+
+
+.box{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1279px) {
+  .box {
+    display: none;
+  }
+}
+
+.box span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 2px solid rgb(148, 163, 184);
+	border-right: 2px solid rgb(148, 163, 184);
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+
+.box span:nth-child(2)
+{
+	animation-delay: -0.2s;
+}
+
+.box span:nth-child(3)
+{
+	animation-delay: -0.4s;
+}
+
+@keyframes animate{
+	
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
