@@ -60,7 +60,7 @@ const Reforco = () => {
             {/* <input type="text" value={busca} onChange={(ev) => setBusca(ev.target.value)}/> */}
 
             
-                <form className="max-w-md mx-auto mt-10 mb-10">   
+                <form className="max-w-md mx-auto mt-10 mb-10 max-sm:w-72">   
                     {/* <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label> */}
                     <div className="relative">
                         <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -68,7 +68,7 @@ const Reforco = () => {
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                             </svg>
                         </div>
-                        <input type="text" value={busca} onChange={(ev) => setBusca(ev.target.value)} id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-slate-400 rounded-lg bg-slate-400 focus:ring-pink-400 focus:border-pink-400 dark:bg-gray-700 dark:border-slate-400 dark:placeholder-gray-400 dark:text-slate-400 dark:focus:ring-pink-400 dark:focus:border-pink-400" placeholder="Pesquisar Metéria" required />
+                        <input type="text" value={busca} onChange={(ev) => setBusca(ev.target.value)} id="default-search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-slate-400 rounded-lg bg-slate-400 focus:ring-pink-400 focus:border-pink-400 dark:bg-gray-700 dark:border-slate-400 dark:placeholder-gray-400 dark:text-slate-400 dark:focus:ring-pink-400 dark:focus:border-pink-400" placeholder="Pesquisar Metéria" />
                         {/* <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button> */}
                     </div>
                 </form>
