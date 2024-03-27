@@ -65,13 +65,13 @@ export default function Home() {
                     <a href="/">Home</a>
                 </li>
                 <li className="text-slate-400 hover:text-pink-400 transition duration-500">
-                    <a href="">Sobre</a>
+                    <a href="/Mensalidade">Mensalidade</a>
                 </li>
                 <li className="text-slate-400 hover:text-pink-400 transition duration-500">
                     <a href="/Reforco">Reforço</a>
                 </li>
                 <li className="text-slate-400 hover:text-pink-400 transition duration-500">
-                    <a href="">Contato</a>
+                    <a href="/Servico">Serviços</a>
                 </li>
               </ul>
             </div>

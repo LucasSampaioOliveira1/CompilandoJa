@@ -78,17 +78,93 @@ export default function Home() {
 
       </div>
       
-      {/* Sessão reforço */}
+      {/* Sessão professores */}
 
-      {/* <div class="box">
+      <div class="box">
         <span></span>
         <span></span>
         <span></span>
       </div>
 
-      <h1 className="text-pink-400 font-abc text-3xl mt-52 text-center font-bold max-md:text-2xl">Escolha seu Curso para ver as Matérias de reforço </h1>     */}
+      <h1 className="text-pink-400 font-abc text-3xl mt-52 text-center font-bold max-md:text-2xl">Professores do Compilando JA</h1>    
 
-     
+     <div className='flex flex-wrap justify-evenly mt-24 mb-10 max-md:gap-10'>
+      
+            <div className='bg-gray-900 border-2 border-slate-400 hover:border-pink-400 shadow-3xl'>
+              <h1 className='text-slate-400 text-center p-5 font-bold text-xl'>
+                  Thallis Duarte
+                </h1>
+                <img className='bg-slate-500' src="./Thallis.png" alt="Thallis" width={270}/>
+                <h1 className='text-slate-400 text-center p-5 font-bold text-xl'>
+                  Diretor
+                </h1>
+
+                <div className='flex flex-wrap justify-center gap-5 mb-10'>
+                  <a href='https://www.instagram.com/thallisduartee' className='text-slate-400 hover:text-pink-400' target="_blank">
+                    <Instagram />
+                  </a>
+
+                  {/* <a href='https://github.com/LucasSampaioOliveira' className='text-slate-400 hover:text-pink-400' target="_blank">
+                    <Github />
+                  </a> */}
+
+                  {/* <a href='#'>
+                    <Instagram />
+                  </a> */}
+                </div>
+            </div>
+
+
+            <div className='bg-gray-900 border-2 border-slate-400 hover:border-pink-400 shadow-3xl'>
+              <h1 className='text-slate-400 text-center p-5 font-bold text-xl'>
+                  Lucas Sampaio
+                </h1>
+                <img className='bg-slate-500' src="./Lucas.png" alt="Lucas" width={270}/>
+                <h1 className='text-slate-400 text-center p-5 font-bold text-xl'>
+                  Professor Front End
+                </h1>
+
+                <div className='flex flex-wrap justify-center gap-5 mb-10'>
+                  <a href='https://www.instagram.com/lucas.sampaio33/' className='text-slate-400 hover:text-pink-400' target="_blank">
+                    <Instagram />
+                  </a>
+
+                  <a href='https://github.com/LucasSampaioOliveira' className='text-slate-400 hover:text-pink-400' target="_blank">
+                    <Github />
+                  </a>
+
+                  {/* <a href='#'>
+                    <Instagram />
+                  </a> */}
+                </div>
+            </div>
+
+
+            <div className='bg-gray-900 border-2 border-slate-400 hover:border-pink-400 shadow-3xl'>
+              <h1 className='text-slate-400 text-center p-5 font-bold text-xl'>
+                  Michael Dias
+                </h1>
+                <img className='bg-slate-500' src="./Maicon.png" alt="Lucas" width={270}/>
+                <h1 className='text-slate-400 text-center p-5 font-bold text-xl'>
+                  Professor Back End
+                </h1>
+
+                <div className='flex flex-wrap justify-center gap-5 mb-10'>
+                  <a href='https://www.instagram.com/smichaelferreirade?igsh=dWxoa2tjZHRvM2Jl' className='text-slate-400 hover:text-pink-400' target="_blank">
+                    <Instagram />
+                  </a>
+
+                  {/* <a href='https://github.com/LucasSampaioOliveira' className='text-slate-400 hover:text-pink-400' target="_blank">
+                    <Github />
+                  </a> */}
+
+                  {/* <a href='#'>
+                    <Instagram />
+                  </a> */}
+                </div>
+            </div>
+     </div>
+
 
     </section>
   );

@@ -36,7 +36,6 @@ const materias = [
     'Gestão de Projetos',
     'Teoria dos Grafos',
     'Compiladores',
-    'Desenvolvimento de Games',
 ];
 
 
