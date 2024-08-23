@@ -65,7 +65,7 @@ export default function Home() {
                     <a href="/">Home</a>
                 </li>
                 <li className="text-slate-400 hover:text-pink-400 transition duration-500">
-                    <a href="/Mensalidade">Mensalidade</a>
+                    <a href="/Cursos">Cursos</a>
                 </li>
                 <li className="text-slate-400 hover:text-pink-400 transition duration-500">
                     <a href="/Reforco">Reforço</a>

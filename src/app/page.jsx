@@ -80,7 +80,7 @@ export default function Home() {
       
       {/* Sessão professores */}
 
-      <div class="box">
+      {/* <div class="box">
         <span></span>
         <span></span>
         <span></span>
@@ -104,13 +104,13 @@ export default function Home() {
                     <Instagram />
                   </a>
 
-                  {/* <a href='https://github.com/LucasSampaioOliveira' className='text-slate-400 hover:text-pink-400' target="_blank">
+                  <a href='https://github.com/LucasSampaioOliveira' className='text-slate-400 hover:text-pink-400' target="_blank">
                     <Github />
-                  </a> */}
+                  </a>
 
-                  {/* <a href='#'>
+                  <a href='#'>
                     <Instagram />
-                  </a> */}
+                  </a>
                 </div>
             </div>
 
@@ -133,9 +133,9 @@ export default function Home() {
                     <Github />
                   </a>
 
-                  {/* <a href='#'>
+                  <a href='#'>
                     <Instagram />
-                  </a> */}
+                  </a>
                 </div>
             </div>
 
@@ -154,16 +154,16 @@ export default function Home() {
                     <Instagram />
                   </a>
 
-                  {/* <a href='https://github.com/LucasSampaioOliveira' className='text-slate-400 hover:text-pink-400' target="_blank">
+                  <a href='https://github.com/LucasSampaioOliveira' className='text-slate-400 hover:text-pink-400' target="_blank">
                     <Github />
-                  </a> */}
+                  </a>
 
-                  {/* <a href='#'>
+                  <a href='#'>
                     <Instagram />
-                  </a> */}
+                  </a>
                 </div>
             </div>
-     </div>
+     </div> */}
 
 
     </section>
